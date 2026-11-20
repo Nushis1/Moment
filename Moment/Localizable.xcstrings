@@ -1,0 +1,3504 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld out of 100": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld na 100"
+          }
+        }
+      }
+    },
+    "%lld out of 5": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld na 5"
+          }
+        }
+      }
+    },
+    "A calmer message is easier to stand behind later.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Za spokojniejszą wiadomością łatwiej później stanąć."
+          }
+        }
+      }
+    },
+    "A few words for your future self": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kilka słów dla przyszłego siebie"
+          }
+        }
+      }
+    },
+    "A message can't be taken back once it's sent.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysłanej wiadomości nie da się cofnąć."
+          }
+        }
+      }
+    },
+    "A message you received or want to send": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiadomość, którą dostałeś lub dostałaś albo chcesz wysłać"
+          }
+        }
+      }
+    },
+    "A personal observation": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osobista obserwacja"
+          }
+        }
+      }
+    },
+    "A short pause lets you check what you actually want to say.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótka przerwa pozwala sprawdzić, co naprawdę chcesz powiedzieć."
+          }
+        }
+      }
+    },
+    "A situation that doesn't fit the options above.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sytuacja, która nie pasuje do opcji powyżej."
+          }
+        }
+      }
+    },
+    "About": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O aplikacji"
+          }
+        }
+      }
+    },
+    "Add a little more so the analysis has something to work with.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj trochę więcej, żeby analiza miała na czym pracować."
+          }
+        }
+      }
+    },
+    "Add a person": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj osobę"
+          }
+        }
+      }
+    },
+    "Adding people is optional. Add someone only if you want to keep private context for them.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodawanie osób jest opcjonalne. Dodaj kogoś tylko wtedy, gdy chcesz zachować prywatny kontekst."
+          }
+        }
+      }
+    },
+    "Address it directly": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mówię wprost"
+          }
+        }
+      }
+    },
+    "All optional. More detail means a more complete analysis.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystko opcjonalne. Im więcej szczegółów, tym pełniejsza analiza."
+          }
+        }
+      }
+    },
+    "All saved decisions and people will be removed from this iPhone. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie zapisane decyzje i osoby zostaną usunięte z tego iPhone'a. Tego nie można cofnąć."
+          }
+        }
+      }
+    },
+    "Always dark": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawsze ciemny"
+          }
+        }
+      }
+    },
+    "Always light": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawsze jasny"
+          }
+        }
+      }
+    },
+    "Analyze": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizuj"
+          }
+        }
+      }
+    },
+    "Analyze message": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizuj wiadomość"
+          }
+        }
+      }
+    },
+    "Analyzing on your device": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analiza na twoim urządzeniu"
+          }
+        }
+      }
+    },
+    "Angry": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Złość"
+          }
+        }
+      }
+    },
+    "Anxious": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niepokój"
+          }
+        }
+      }
+    },
+    "Anything else worth adding?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy jest coś jeszcze, co warto dodać?"
+          }
+        }
+      }
+    },
+    "Appearance": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wygląd"
+          }
+        }
+      }
+    },
+    "As expected": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zgodnie z oczekiwaniami"
+          }
+        }
+      }
+    },
+    "Ask a question": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zadać pytanie"
+          }
+        }
+      }
+    },
+    "Avoid if possible": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unikam, jeśli się da"
+          }
+        }
+      }
+    },
+    "Back": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wstecz"
+          }
+        }
+      }
+    },
+    "Balanced": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zrównoważony"
+          }
+        }
+      }
+    },
+    "Calm": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spokój"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
+          }
+        }
+      }
+    },
+    "Choose the one you plan to follow. It doesn't have to be the suggested one.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz tę, którą planujesz wybrać. Nie musi to być sugerowana."
+          }
+        }
+      }
+    },
+    "Chose the suggestion": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybrano sugestię"
+          }
+        }
+      }
+    },
+    "Clarity, not mind reading": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jasność, nie czytanie w myślach"
+          }
+        }
+      }
+    },
+    "Communication style": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Styl komunikacji"
+          }
+        }
+      }
+    },
+    "Comparing your options": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porównuję twoje opcje"
+          }
+        }
+      }
+    },
+    "Comparison score": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wynik porównawczy"
+          }
+        }
+      }
+    },
+    "Confidence shows how complete your input was. It is not a chance of success.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pewność pokazuje, jak pełne były twoje dane. To nie jest szansa na powodzenie."
+          }
+        }
+      }
+    },
+    "Confidence: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pewność: %@"
+          }
+        }
+      }
+    },
+    "Confident": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pewny siebie"
+          }
+        }
+      }
+    },
+    "Confirm to turn on the app lock.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potwierdź, aby włączyć blokadę aplikacji."
+          }
+        }
+      }
+    },
+    "Conflict": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konflikt"
+          }
+        }
+      }
+    },
+    "Confused": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zagubienie"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dalej"
+          }
+        }
+      }
+    },
+    "Continue getting to know someone": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontynuować poznawanie się"
+          }
+        }
+      }
+    },
+    "Copied": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skopiowano"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj"
+          }
+        }
+      }
+    },
+    "Couldn't create the export": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się utworzyć eksportu"
+          }
+        }
+      }
+    },
+    "Date": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        }
+      }
+    },
+    "Dating or getting to know": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Randkowanie lub poznawanie się"
+          }
+        }
+      }
+    },
+    "Decide how to reply": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdecydować, jak odpowiedzieć"
+          }
+        }
+      }
+    },
+    "Decide whether to wait": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdecydować, czy poczekać"
+          }
+        }
+      }
+    },
+    "Decide whether to write": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdecydować, czy napisać"
+          }
+        }
+      }
+    },
+    "Decision not found": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono decyzji"
+          }
+        }
+      }
+    },
+    "Decisions you save are kept here so you can look back at how things went.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane decyzje trafiają tutaj, żebyś mógł lub mogła wrócić do tego, jak poszło."
+          }
+        }
+      }
+    },
+    "Decisions you save will show up here.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane decyzje pojawią się tutaj."
+          }
+        }
+      }
+    },
+    "Decline politely": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grzecznie odmówić"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        }
+      }
+    },
+    "Delete all data": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń wszystkie dane"
+          }
+        }
+      }
+    },
+    "Delete all data?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć wszystkie dane?"
+          }
+        }
+      }
+    },
+    "Delete decision": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń decyzję"
+          }
+        }
+      }
+    },
+    "Delete everything": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń wszystko"
+          }
+        }
+      }
+    },
+    "Delete this decision?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć tę decyzję?"
+          }
+        }
+      }
+    },
+    "Describe the situation in your own words. Stick to facts where you can.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opisz sytuację własnymi słowami. Tam, gdzie się da, trzymaj się faktów."
+          }
+        }
+      }
+    },
+    "Different than expected": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inaczej, niż się spodziewałem lub spodziewałam"
+          }
+        }
+      }
+    },
+    "Direct": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bezpośredni"
+          }
+        }
+      }
+    },
+    "Discard": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odrzuć"
+          }
+        }
+      }
+    },
+    "Discard this moment?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odrzucić ten moment?"
+          }
+        }
+      }
+    },
+    "Done": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj"
+          }
+        }
+      }
+    },
+    "Edit freely. These are starting points, not scripts.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Śmiało zmieniaj. To punkty wyjścia, nie gotowe scenariusze."
+          }
+        }
+      }
+    },
+    "Edit person": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj osobę"
+          }
+        }
+      }
+    },
+    "End contact": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakończyć kontakt"
+          }
+        }
+      }
+    },
+    "Everything is analyzed on your iPhone. No account, no servers, no AI services. It works offline.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystko jest analizowane na twoim iPhonie. Bez konta, bez serwerów, bez usług AI. Działa offline."
+          }
+        }
+      }
+    },
+    "Everything you write is analyzed on this iPhone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystko, co piszesz, jest analizowane na tym iPhonie."
+          }
+        }
+      }
+    },
+    "Ex": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Była lub były"
+          }
+        }
+      }
+    },
+    "Excited": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekscytacja"
+          }
+        }
+      }
+    },
+    "Export everything as a file, or delete it all, from Settings.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W Ustawieniach wyeksportujesz wszystko do pliku albo usuniesz."
+          }
+        }
+      }
+    },
+    "Export my data": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj moje dane"
+          }
+        }
+      }
+    },
+    "Family": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzina"
+          }
+        }
+      }
+    },
+    "Fills History, People and Insights with sample content so you can review every screen. This row will be removed.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypełnia Historię, Osoby i Wnioski przykładową treścią, abyś mógł lub mogła obejrzeć każdy ekran. Ten wiersz zostanie usunięty."
+          }
+        }
+      }
+    },
+    "Flirty": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flirtujący"
+          }
+        }
+      }
+    },
+    "Follow up": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrócić do tematu"
+          }
+        }
+      }
+    },
+    "For acting now": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Za działaniem teraz"
+          }
+        }
+      }
+    },
+    "For example: They haven't replied since Monday and I don't know whether to write.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na przykład: Nie odpisuje od poniedziałku i nie wiem, czy napisać."
+          }
+        }
+      }
+    },
+    "For pausing": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Za chwilą przerwy"
+          }
+        }
+      }
+    },
+    "Friend": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyjaciel lub przyjaciółka"
+          }
+        }
+      }
+    },
+    "Gentle": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delikatny"
+          }
+        }
+      }
+    },
+    "Get started": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaczynamy"
+          }
+        }
+      }
+    },
+    "Give the other person space": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daj drugiej osobie przestrzeń"
+          }
+        }
+      }
+    },
+    "Good": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobra"
+          }
+        }
+      }
+    },
+    "Good afternoon": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dzień dobry"
+          }
+        }
+      }
+    },
+    "Good evening": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobry wieczór"
+          }
+        }
+      }
+    },
+    "Good morning": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dzień dobry"
+          }
+        }
+      }
+    },
+    "Good night": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobranoc"
+          }
+        }
+      }
+    },
+    "Hey, good to hear from you. I'm a bit busy now, can I answer properly later today?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hej, miło cię słyszeć. Jestem teraz trochę zajęty lub zajęta, mogę odpisać porządnie później?"
+          }
+        }
+      }
+    },
+    "History": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia"
+          }
+        }
+      }
+    },
+    "History, plans, what you already tried": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia, plany, co już próbowano"
+          }
+        }
+      }
+    },
+    "Home": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        }
+      }
+    },
+    "Honest about timing without closing the door.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szczera co do czasu, bez zamykania drzwi."
+          }
+        }
+      }
+    },
+    "Hopeful": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadzieja"
+          }
+        }
+      }
+    },
+    "How are you feeling right now?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak się teraz czujesz?"
+          }
+        }
+      }
+    },
+    "How did it go?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak to poszło?"
+          }
+        }
+      }
+    },
+    "How do you usually like to communicate? You can change this any time in Settings.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak zwykle lubisz się komunikować? Możesz to zmienić w każdej chwili w Ustawieniach."
+          }
+        }
+      }
+    },
+    "How often the two of you usually talk.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak często zwykle rozmawiacie."
+          }
+        }
+      }
+    },
+    "How soon do you need to decide?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak szybko musisz zdecydować?"
+          }
+        }
+      }
+    },
+    "How things turned out": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak się to skończyło"
+          }
+        }
+      }
+    },
+    "How you prefer to communicate": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak wolisz się komunikować"
+          }
+        }
+      }
+    },
+    "Hurt": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zranienie"
+          }
+        }
+      }
+    },
+    "I prefer clarity": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wolę jasność"
+          }
+        }
+      }
+    },
+    "I received something and I'm not sure how to answer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostałem lub dostałam wiadomość i nie wiem, jak odpowiedzieć."
+          }
+        }
+      }
+    },
+    "I remember when we met": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pamiętam, kiedy się poznaliśmy"
+          }
+        }
+      }
+    },
+    "I'm fine with open questions": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwarte pytania mi nie przeszkadzają"
+          }
+        }
+      }
+    },
+    "Insights": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wnioski"
+          }
+        }
+      }
+    },
+    "Is this a usual pace of contact for you two, or has something changed?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy to zwykłe tempo kontaktu między wami, czy coś się zmieniło?"
+          }
+        }
+      }
+    },
+    "It contains a question, which invites an answer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawiera pytanie, które zaprasza do odpowiedzi."
+          }
+        }
+      }
+    },
+    "It could also be an opening for a longer conversation.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może to być też początek dłuższej rozmowy."
+          }
+        }
+      }
+    },
+    "It could be a simple, friendly check-in.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może to być zwykłe, przyjazne zagadnięcie."
+          }
+        }
+      }
+    },
+    "It depends": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To zależy"
+          }
+        }
+      }
+    },
+    "It doesn't contain a direct question.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie zawiera bezpośredniego pytania."
+          }
+        }
+      }
+    },
+    "It matches your wish to move things forward.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasuje do twojej chęci, by ruszyć sprawy do przodu."
+          }
+        }
+      }
+    },
+    "It may have been deleted.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mogła zostać usunięta."
+          }
+        }
+      }
+    },
+    "It organizes what you share and shows possible readings. It never claims to know what someone feels or how a relationship will go.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porządkuje to, czym się dzielisz, i pokazuje możliwe odczytania. Nigdy nie twierdzi, że wie, co ktoś czuje ani jak potoczy się relacja."
+          }
+        }
+      }
+    },
+    "It protects the boundaries you mentioned.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chroni granice, o których wspomniałeś lub wspomniałaś."
+          }
+        }
+      }
+    },
+    "Keep editing": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wróć do edycji"
+          }
+        }
+      }
+    },
+    "Keep the connection going at a good pace.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podtrzymać kontakt w dobrym tempie."
+          }
+        }
+      }
+    },
+    "Language": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Język"
+          }
+        }
+      }
+    },
+    "Last decision": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnia decyzja"
+          }
+        }
+      }
+    },
+    "Learn from my history": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ucz się z mojej historii"
+          }
+        }
+      }
+    },
+    "Leaving room for them to respond in their own time respects both sides.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zostawienie miejsca na odpowiedź w jej własnym czasie szanuje obie strony."
+          }
+        }
+      }
+    },
+    "Light": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lekki"
+          }
+        }
+      }
+    },
+    "Link to a person": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiąż z osobą"
+          }
+        }
+      }
+    },
+    "Load demo data": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wczytaj dane demonstracyjne"
+          }
+        }
+      }
+    },
+    "Lock MOMENT": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blokada MOMENT"
+          }
+        }
+      }
+    },
+    "Looking at the wording": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyglądam się sformułowaniom"
+          }
+        }
+      }
+    },
+    "Low": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niska"
+          }
+        }
+      }
+    },
+    "MOMENT doesn't send your messages to any server or generative AI service.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT nie wysyła twoich wiadomości do żadnego serwera ani generatywnej usługi AI."
+          }
+        }
+      }
+    },
+    "MOMENT helps you slow down, see your options and choose your next step yourself.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT pomaga zwolnić, zobaczyć opcje i samodzielnie wybrać następny krok."
+          }
+        }
+      }
+    },
+    "MOMENT helps you think. It can't know what another person feels, and the decision is always yours.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT pomaga ci myśleć. Nie wie, co czuje druga osoba, a decyzja zawsze należy do ciebie."
+          }
+        }
+      }
+    },
+    "MOMENT is locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT jest zablokowany"
+          }
+        }
+      }
+    },
+    "MOMENT works entirely on your device, with no account and no AI service.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT działa w całości na twoim urządzeniu, bez konta i bez usługi AI."
+          }
+        }
+      }
+    },
+    "Make it yours": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopasuj do siebie"
+          }
+        }
+      }
+    },
+    "Match system": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak w systemie"
+          }
+        }
+      }
+    },
+    "Maybe it's better to give it some time.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może lepiej dać temu trochę czasu."
+          }
+        }
+      }
+    },
+    "Message you received": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otrzymana wiadomość"
+          }
+        }
+      }
+    },
+    "Met %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poznani: %@"
+          }
+        }
+      }
+    },
+    "Moderate": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Umiarkowana"
+          }
+        }
+      }
+    },
+    "Moments you link to this person will appear here.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Momenty powiązane z tą osobą pojawią się tutaj."
+          }
+        }
+      }
+    },
+    "More": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Więcej"
+          }
+        }
+      }
+    },
+    "Most common feeling": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najczęstsze uczucie"
+          }
+        }
+      }
+    },
+    "Most common goal": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najczęstszy cel"
+          }
+        }
+      }
+    },
+    "Most common relationship": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najczęstsza relacja"
+          }
+        }
+      }
+    },
+    "Most of your saved moments are about: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Większość twoich zapisanych momentów dotyczy: %@"
+          }
+        }
+      }
+    },
+    "Name or nickname": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imię lub pseudonim"
+          }
+        }
+      }
+    },
+    "Natural": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naturalny"
+          }
+        }
+      }
+    },
+    "Neutral": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neutralny"
+          }
+        }
+      }
+    },
+    "New Moment": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy Moment"
+          }
+        }
+      }
+    },
+    "New person": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowa osoba"
+          }
+        }
+      }
+    },
+    "No account": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez konta"
+          }
+        }
+      }
+    },
+    "No clear pattern stands out yet.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Żaden wyraźny wzorzec jeszcze się nie rysuje."
+          }
+        }
+      }
+    },
+    "No one added yet": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nikogo jeszcze nie dodano"
+          }
+        }
+      }
+    },
+    "No one in particular": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nikt konkretny"
+          }
+        }
+      }
+    },
+    "No result": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez rezultatu"
+          }
+        }
+      }
+    },
+    "No rush": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez pośpiechu"
+          }
+        }
+      }
+    },
+    "No servers, no AI services": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez serwerów i usług AI"
+          }
+        }
+      }
+    },
+    "Not sure yet": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeszcze nie wiem"
+          }
+        }
+      }
+    },
+    "Nothing saved yet": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nic jeszcze nie zapisano"
+          }
+        }
+      }
+    },
+    "Nothing to reflect on yet": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na razie nie ma o czym myśleć"
+          }
+        }
+      }
+    },
+    "OK": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Observations appear after you've saved a few decisions. Nothing is concluded from a single situation.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obserwacje pojawią się po zapisaniu kilku decyzji. Z jednej sytuacji nie wyciągamy wniosków."
+          }
+        }
+      }
+    },
+    "Observations, not conclusions. Nothing here rates other people.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obserwacje, nie wyroki. Nic tu nie ocenia innych osób."
+          }
+        }
+      }
+    },
+    "On your device": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na twoim urządzeniu"
+          }
+        }
+      }
+    },
+    "Only you can say. This stays on your device.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tylko ty to wiesz. To zostaje na twoim urządzeniu."
+          }
+        }
+      }
+    },
+    "Optional": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcjonalne"
+          }
+        }
+      }
+    },
+    "Optional lock": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcjonalna blokada"
+          }
+        }
+      }
+    },
+    "Organizing what you shared": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porządkuję to, co napisałeś lub napisałaś"
+          }
+        }
+      }
+    },
+    "Other context": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inny kontekst"
+          }
+        }
+      }
+    },
+    "Outcome not recorded": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak wyniku"
+          }
+        }
+      }
+    },
+    "Pace": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo"
+          }
+        }
+      }
+    },
+    "Partner": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partner lub partnerka"
+          }
+        }
+      }
+    },
+    "Paste a message and think through your answer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej wiadomość i przemyśl odpowiedź."
+          }
+        }
+      }
+    },
+    "Paste a message to get started.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej wiadomość, aby zacząć."
+          }
+        }
+      }
+    },
+    "Paste a message you received. MOMENT separates what is visible from what is only a guess.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej otrzymaną wiadomość. MOMENT oddziela to, co widać, od tego, co jest tylko domysłem."
+          }
+        }
+      }
+    },
+    "Paste it here": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej ją tutaj"
+          }
+        }
+      }
+    },
+    "Paste the message here": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej wiadomość tutaj"
+          }
+        }
+      }
+    },
+    "Patterns": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorce"
+          }
+        }
+      }
+    },
+    "Patterns appear once you have saved %lld decisions. You have %lld so far.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorce pojawią się po zapisaniu %lld decyzji. Na razie masz ich %lld."
+          }
+        }
+      }
+    },
+    "People": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osoby"
+          }
+        }
+      }
+    },
+    "Person": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osoba"
+          }
+        }
+      }
+    },
+    "Person not found": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono osoby"
+          }
+        }
+      }
+    },
+    "Personalization": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizacja"
+          }
+        }
+      }
+    },
+    "Pick the closest one. You decide what happens next.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz najbliższą opcję. To ty decydujesz, co dalej."
+          }
+        }
+      }
+    },
+    "Possible readings": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możliwe odczytania"
+          }
+        }
+      }
+    },
+    "Prefer not to say": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wolę nie mówić"
+          }
+        }
+      }
+    },
+    "Preparing your recommendation": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przygotowuję rekomendację"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prywatność"
+          }
+        }
+      }
+    },
+    "Private by design": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prywatność z założenia"
+          }
+        }
+      }
+    },
+    "Private notes": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prywatne notatki"
+          }
+        }
+      }
+    },
+    "Profile and settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil i ustawienia"
+          }
+        }
+      }
+    },
+    "Pros and cons": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plusy i minusy"
+          }
+        }
+      }
+    },
+    "Protect the app with Face ID, Touch ID or your passcode.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chroń aplikację przez Face ID, Touch ID lub kod."
+          }
+        }
+      }
+    },
+    "Quick": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybkie"
+          }
+        }
+      }
+    },
+    "Reaching out soon keeps the moment fresh and shows you care about clarity.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybki kontakt zachowuje świeżość chwili i pokazuje, że zależy ci na jasności."
+          }
+        }
+      }
+    },
+    "Recent situations": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnie sytuacje"
+          }
+        }
+      }
+    },
+    "Recommendation": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rekomendacja"
+          }
+        }
+      }
+    },
+    "Record how a decision went to see this chart.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaznacz, jak poszła decyzja, aby zobaczyć ten wykres."
+          }
+        }
+      }
+    },
+    "Relationship": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relacja"
+          }
+        }
+      }
+    },
+    "Relationship questions are personal. MOMENT is built so nobody else has to see them.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawy relacji są osobiste. MOMENT jest zbudowany tak, by nikt inny nie musiał ich widzieć."
+          }
+        }
+      }
+    },
+    "Remove": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        }
+      }
+    },
+    "Remove this person": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń tę osobę"
+          }
+        }
+      }
+    },
+    "Remove this person?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć tę osobę?"
+          }
+        }
+      }
+    },
+    "Reply": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odpowiedź"
+          }
+        }
+      }
+    },
+    "Reply Studio": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Studio odpowiedzi"
+          }
+        }
+      }
+    },
+    "Reply ideas": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomysły na odpowiedź"
+          }
+        }
+      }
+    },
+    "Right now": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teraz"
+          }
+        }
+      }
+    },
+    "Sad": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smutek"
+          }
+        }
+      }
+    },
+    "Save": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz"
+          }
+        }
+      }
+    },
+    "Save a few decisions and record how they went. Insights are built only from your own history.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz kilka decyzji i zaznacz, jak poszły. Wnioski powstają wyłącznie z twojej własnej historii."
+          }
+        }
+      }
+    },
+    "Save changes": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz zmiany"
+          }
+        }
+      }
+    },
+    "Save my decision": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz moją decyzję"
+          }
+        }
+      }
+    },
+    "Saved decisions": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane decyzje"
+          }
+        }
+      }
+    },
+    "Say something honest and personal.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedzieć coś szczerego i osobistego."
+          }
+        }
+      }
+    },
+    "Scores only compare these options for you. They don't predict how anyone will react.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyniki jedynie porównują te opcje dla ciebie. Nie przewidują, jak ktokolwiek zareaguje."
+          }
+        }
+      }
+    },
+    "Search people": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj osób"
+          }
+        }
+      }
+    },
+    "Search your moments": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj w momentach"
+          }
+        }
+      }
+    },
+    "Security": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bezpieczeństwo"
+          }
+        }
+      }
+    },
+    "Set a boundary": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postawić granicę"
+          }
+        }
+      }
+    },
+    "Set a passcode on this iPhone to use the app lock.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustaw kod na tym iPhonie, aby korzystać z blokady aplikacji."
+          }
+        }
+      }
+    },
+    "Settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia"
+          }
+        }
+      }
+    },
+    "Share how I feel": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedzieć, co czuję"
+          }
+        }
+      }
+    },
+    "Should I be the one to reach out?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy to ja powinienem lub powinnam się odezwać?"
+          }
+        }
+      }
+    },
+    "Show interest": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okazać zainteresowanie"
+          }
+        }
+      }
+    },
+    "Skip": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiń"
+          }
+        }
+      }
+    },
+    "Slow": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spokojne"
+          }
+        }
+      }
+    },
+    "Someone else": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ktoś inny"
+          }
+        }
+      }
+    },
+    "Something else": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś innego"
+          }
+        }
+      }
+    },
+    "Something went wrong": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś poszło nie tak"
+          }
+        }
+      }
+    },
+    "Something you already wrote": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś, co już napisałeś lub napisałaś"
+          }
+        }
+      }
+    },
+    "Step %lld of %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krok %lld z %lld"
+          }
+        }
+      }
+    },
+    "Step back or close a chapter calmly.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spokojnie się wycofać lub zamknąć rozdział."
+          }
+        }
+      }
+    },
+    "Strong emotions are easier to manage after a short break.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silnymi emocjami łatwiej zarządzać po krótkiej przerwie."
+          }
+        }
+      }
+    },
+    "Strong feelings can shape the wording more than you intend.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silne emocje mogą kształtować sformułowania bardziej, niż zamierzasz."
+          }
+        }
+      }
+    },
+    "Suggest a meeting, a call or a change.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaproponować spotkanie, rozmowę lub zmianę."
+          }
+        }
+      }
+    },
+    "Suggested": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugerowane"
+          }
+        }
+      }
+    },
+    "Suggested next step": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugerowany następny krok"
+          }
+        }
+      }
+    },
+    "Take the first step": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zrobić pierwszy krok"
+          }
+        }
+      }
+    },
+    "Talk it through calmly": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spokojnie to omawiam"
+          }
+        }
+      }
+    },
+    "Temporary (design phase)": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tymczasowe (faza projektowa)"
+          }
+        }
+      }
+    },
+    "Thanks for writing! I'd love to hear more. How has your week been?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dzięki, że piszesz! Chętnie posłucham więcej. Jak minął ci tydzień?"
+          }
+        }
+      }
+    },
+    "The export is a JSON file you control. MOMENT never uploads it anywhere.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksport to plik JSON, nad którym masz kontrolę. MOMENT nigdzie go nie wysyła."
+          }
+        }
+      }
+    },
+    "The kind of relationship changes what a good next step looks like.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzaj relacji zmienia to, jak wygląda dobry następny krok."
+          }
+        }
+      }
+    },
+    "The message has about %lld words.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiadomość ma około %lld słów."
+          }
+        }
+      }
+    },
+    "The other person may read silence in different ways.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Druga osoba może różnie odczytać ciszę."
+          }
+        }
+      }
+    },
+    "The situation": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sytuacja"
+          }
+        }
+      }
+    },
+    "Theme": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motyw"
+          }
+        }
+      }
+    },
+    "There is no pressure on either of you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nikt z was nie jest pod presją."
+          }
+        }
+      }
+    },
+    "There is nothing to sign up for and no profile to create.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie trzeba się nigdzie rejestrować ani tworzyć profilu."
+          }
+        }
+      }
+    },
+    "There's no wrong answer. This helps weigh how quickly to act.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie ma złych odpowiedzi. To pomaga ocenić, jak szybko działać."
+          }
+        }
+      }
+    },
+    "These are possibilities, not facts about what the other person means.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To możliwości, a nie fakty o tym, co druga osoba ma na myśli."
+          }
+        }
+      }
+    },
+    "These options follow the intent and tone you chose, and none of them assumes what the other person feels.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te opcje wynikają z wybranej intencji i tonu, a żadna nie zakłada, co czuje druga osoba."
+          }
+        }
+      }
+    },
+    "These shape the options and wording you see. You can change them any time.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpływają na opcje i sformułowania, które widzisz. Możesz je zmienić w każdej chwili."
+          }
+        }
+      }
+    },
+    "Think before you send": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomyśl, zanim wyślesz"
+          }
+        }
+      }
+    },
+    "This option fits your goal while leaving the most room for a choice you'll still agree with tomorrow.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta opcja pasuje do twojego celu i zostawia najwięcej miejsca na wybór, z którym nadal się zgodzisz jutro."
+          }
+        }
+      }
+    },
+    "This person may have been removed.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta osoba mogła zostać usunięta."
+          }
+        }
+      }
+    },
+    "Today": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziś"
+          }
+        }
+      }
+    },
+    "Tone": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton"
+          }
+        }
+      }
+    },
+    "Tone is hard to judge from text alone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton trudno ocenić wyłącznie z tekstu."
+          }
+        }
+      }
+    },
+    "Try again": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spróbuj ponownie"
+          }
+        }
+      }
+    },
+    "Two ways to look at it": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dwa spojrzenia na sprawę"
+          }
+        }
+      }
+    },
+    "Uncertainty": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niepewność"
+          }
+        }
+      }
+    },
+    "Understand first, then act": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najpierw zrozum, potem działaj"
+          }
+        }
+      }
+    },
+    "Unlock": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj"
+          }
+        }
+      }
+    },
+    "Unlock MOMENT.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj MOMENT."
+          }
+        }
+      }
+    },
+    "Uses Face ID, Touch ID or your passcode whenever the app returns from the background.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Używa Face ID, Touch ID lub kodu za każdym razem, gdy aplikacja wraca z tła."
+          }
+        }
+      }
+    },
+    "Version": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wersja"
+          }
+        }
+      }
+    },
+    "Wait until you feel steadier": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poczekaj, aż poczujesz się stabilniej"
+          }
+        }
+      }
+    },
+    "Waiting can turn into avoiding if there is no end point.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czekanie może przerodzić się w unikanie, jeśli nie ma punktu końcowego."
+          }
+        }
+      }
+    },
+    "Waiting too long can make the situation feel bigger.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zbyt długie czekanie może sprawić, że sytuacja wyda się większa."
+          }
+        }
+      }
+    },
+    "Warm and open. Keeps the conversation going.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciepła i otwarta. Podtrzymuje rozmowę."
+          }
+        }
+      }
+    },
+    "Was the suggestion helpful?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy sugestia pomogła?"
+          }
+        }
+      }
+    },
+    "Ways to reply": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sposoby odpowiedzi"
+          }
+        }
+      }
+    },
+    "What I understood": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co zrozumiałem"
+          }
+        }
+      }
+    },
+    "What MOMENT showed": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co pokazał MOMENT"
+          }
+        }
+      }
+    },
+    "What can be noticed": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co można zauważyć"
+          }
+        }
+      }
+    },
+    "What can't be known from here": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czego stąd nie da się wiedzieć"
+          }
+        }
+      }
+    },
+    "What did you learn?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czego się nauczyłeś lub nauczyłaś?"
+          }
+        }
+      }
+    },
+    "What do you want to do?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co chcesz zrobić?"
+          }
+        }
+      }
+    },
+    "What do you want to figure out?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co chcesz rozstrzygnąć?"
+          }
+        }
+      }
+    },
+    "What happened?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co się wydarzyło?"
+          }
+        }
+      }
+    },
+    "What matters to remember": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co warto pamiętać"
+          }
+        }
+      }
+    },
+    "What mood they were in when they wrote it.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W jakim była nastroju, gdy to pisała."
+          }
+        }
+      }
+    },
+    "What the other person intended.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co druga osoba miała na myśli."
+          }
+        }
+      }
+    },
+    "What would sharpen this": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co by to doprecyzowało"
+          }
+        }
+      }
+    },
+    "What you wrote won't be saved.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To, co napisałeś lub napisałaś, nie zostanie zapisane."
+          }
+        }
+      }
+    },
+    "What's on your mind?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co ci chodzi po głowie?"
+          }
+        }
+      }
+    },
+    "When on, MOMENT can adjust suggestions using how your past decisions turned out. Learning stays on this device.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy włączone, MOMENT może dostosowywać sugestie do tego, jak wyszły twoje wcześniejsze decyzje. Nauka odbywa się tylko na tym urządzeniu."
+          }
+        }
+      }
+    },
+    "Who is this about?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kogo to dotyczy?"
+          }
+        }
+      }
+    },
+    "Why these fit": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego te pasują"
+          }
+        }
+      }
+    },
+    "Work": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Praca"
+          }
+        }
+      }
+    },
+    "Write now": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napisz teraz"
+          }
+        }
+      }
+    },
+    "You chose": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój wybór"
+          }
+        }
+      }
+    },
+    "You get an answer sooner.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybciej dostaniesz odpowiedź."
+          }
+        }
+      }
+    },
+    "You keep the option to write later.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowujesz możliwość napisania później."
+          }
+        }
+      }
+    },
+    "You may stay uncertain for longer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możesz dłużej pozostać w niepewności."
+          }
+        }
+      }
+    },
+    "You most often come to MOMENT feeling %@.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najczęściej wracasz do MOMENT z uczuciem: %@."
+          }
+        }
+      }
+    },
+    "You want clarity rather than guessing.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zależy ci na jasności, a nie na domysłach."
+          }
+        }
+      }
+    },
+    "You're weighing whether to act now or take a moment first. Here are the options and what each one asks of you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozważasz, czy działać teraz, czy najpierw wziąć chwilę. Oto opcje i to, czego każda z nich wymaga."
+          }
+        }
+      }
+    },
+    "Your data": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje dane"
+          }
+        }
+      }
+    },
+    "Your declared style": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój zadeklarowany styl"
+          }
+        }
+      }
+    },
+    "Your draft": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój szkic"
+          }
+        }
+      }
+    },
+    "Your moments stay yours": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje momenty zostają twoje"
+          }
+        }
+      }
+    },
+    "Your notes": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje notatki"
+          }
+        }
+      }
+    },
+    "Your options": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje opcje"
+          }
+        }
+      }
+    },
+    "Your saved decisions stay in History. They just won't be linked to this person.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje zapisane decyzje zostają w Historii. Po prostu nie będą powiązane z tą osobą."
+          }
+        }
+      }
+    },
+    "Your saved moments are varied. No clear pattern stands out yet.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje zapisane momenty są różnorodne. Żaden wyraźny wzorzec jeszcze się nie rysuje."
+          }
+        }
+      }
+    },
+    "Your words are more likely to reflect your goal.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje słowa lepiej oddadzą twój cel."
+          }
+        }
+      }
+    },
+    "Yours to keep or erase": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje do zachowania lub usunięcia"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

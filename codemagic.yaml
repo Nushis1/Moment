@@ -1,0 +1,132 @@
+# Codemagic dla MOMENT (iPhone, iOS 26+).
+#
+# Dwa workflowy:
+#   ios-unsigned  testy MomentCore + niepodpisany Moment.ipa (do AltStore / SideStore / Sideloadly)
+#   ios-signed    PODPISANY Moment.ipa (Ad Hoc) do instalacji na zarejestrowanych iPhone'ach.
+#                 Uruchamiany RĘCZNIE; wymaga płatnego Apple Developer Program.
+#
+# ios-unsigned nie potrzebuje żadnych sekretów. Tylko ios-signed wymaga podpisywania:
+#   1. Płatne konto Apple Developer Program.
+#   2. Klucz App Store Connect API dodany w Codemagic (Team settings -> Integrations ->
+#      App Store Connect) pod nazwą zgodną z APP_STORE_CONNECT_KEY_NAME poniżej ("Moment").
+#   3. Grupa zmiennych "code-signing" z sekretem CERTIFICATE_PRIVATE_KEY:
+#        ssh-keygen -t rsa -b 2048 -m PEM -f cm_cert_key -q -N ""
+#      (cała zawartość pliku cm_cert_key, z liniami BEGIN/END).
+#   4. UDID-y iPhone'ów zarejestrowane w Apple Developer -> Devices przed wygenerowaniem profilu.
+#
+# Uruchomienie: w Codemagic dodaj repozytorium (Add application -> "codemagic.yaml"),
+# potem w ustawieniach aplikacji "Create webhook".
+
+definitions:
+  triggers: &triggers
+    events:
+      - push
+      - pull_request
+    branch_patterns:
+      - pattern: main
+        include: true
+        source: true
+      - pattern: beta
+        include: true
+        source: true
+      - pattern: '*'
+        include: true
+        source: false
+    cancel_previous_builds: true
+
+workflows:
+  ios-unsigned:
+    name: iOS (unsigned .ipa)
+    labels:
+      - ios
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    environment:
+      xcode: latest
+    triggering: *triggers
+    scripts:
+      - name: Show toolchain
+        script: |
+          xcodebuild -version
+          xcodebuild -showsdks | grep -i ios
+
+      - name: Test MomentCore
+        working_directory: MomentCore
+        script: swift test
+
+      - name: Build unsigned app
+        script: |
+          # Bez pipefail job przechodzi na kodzie wyjścia `tail`, nawet gdy build się wywali.
+          set -o pipefail
+          xcodebuild -project Moment.xcodeproj -scheme Moment -configuration Release \
+            -destination 'generic/platform=iOS' -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build 2>&1 | tee build.log | tail -n 40 \
+            || { echo "Errors:"; grep -E "error:" build.log | sort -u | head -100; exit 1; }
+
+      # .ipa bez płatnego podpisu: AltStore, SideStore i Sideloadly podmieniają podpis na ten
+      # z Apple ID instalującego. Najpierw nakładamy podpis ad-hoc ("-"), bo narzędzia do
+      # sideloadu oczekują poprawnie podpisanego (choćby ad-hoc) Mach-O.
+      - name: Package .ipa
+        script: |
+          set -e
+          rm -rf Payload Moment.ipa
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/Moment.app Payload/
+          APP=Payload/Moment.app
+          for f in "$APP"/Frameworks/*.framework "$APP"/Frameworks/*.dylib "$APP"/PlugIns/*.appex; do
+            [ -e "$f" ] && codesign --force --sign - "$f"
+          done
+          codesign --force --sign - "$APP"
+          codesign --verify --deep --strict --verbose=2 "$APP"
+          zip -qry Moment.ipa Payload
+          ls -lh Moment.ipa
+    artifacts:
+      - Moment.ipa
+      - build.log
+
+  # Podpisany .ipa (Ad Hoc). Codemagic sam tworzy/pobiera certyfikat i profil przez
+  # App Store Connect API. Bez `triggering`: startuje tylko ręcznie.
+  ios-signed:
+    name: iOS (signed .ipa, Ad Hoc)
+    labels:
+      - ios
+      - signed
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    integrations:
+      app_store_connect: Moment   # nazwa klucza z Codemagic -> Team settings -> Integrations
+    environment:
+      xcode: latest
+      groups:
+        - code-signing          # CERTIFICATE_PRIVATE_KEY
+      vars:
+        XCODE_PROJECT: Moment.xcodeproj
+        XCODE_SCHEME: Moment
+        BUNDLE_ID: ivors.Moment
+    scripts:
+      - name: Set up keychain
+        script: keychain initialize
+
+      - name: Test MomentCore
+        working_directory: MomentCore
+        script: swift test
+
+      - name: Fetch signing files
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_ADHOC --create
+
+      - name: Add certificates to keychain
+        script: keychain add-certificates
+
+      - name: Apply provisioning profiles to the Xcode project
+        script: xcode-project use-profiles
+
+      - name: Build signed .ipa
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log

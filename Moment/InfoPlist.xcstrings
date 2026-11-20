@@ -1,0 +1,23 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSFaceIDUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT uses Face ID to lock your private notes and decisions."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOMENT używa Face ID do zablokowania twoich prywatnych notatek i decyzji."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
