@@ -49,6 +49,8 @@ final class Router {
     var peoplePath: [Route] = []
     var insightsPath: [Route] = []
     var sheet: SheetDestination?
+    /// A message handed to Reply Studio from another screen. Reply Studio takes it once.
+    var replyPrefill: ReplyInput?
 
     func startNewMoment() {
         sheet = .newMoment
@@ -59,6 +61,12 @@ final class Router {
     }
 
     func closeSheet() {
+        sheet = nil
+    }
+
+    func openReplyStudio(with input: ReplyInput) {
+        replyPrefill = input
+        selectedTab = .reply
         sheet = nil
     }
 

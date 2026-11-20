@@ -11,12 +11,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORE = "--core" in sys.argv
 SRC = ROOT / "MomentCore" / "Sources" / "MomentCore" if CORE else ROOT / "Moment"
 CATALOG = (SRC / "Resources" if CORE else SRC) / "Localizable.xcstrings"
-SKIP_FILES = {"Lexicons.swift", "ReplyTemplates.swift"} if CORE else {"DemoData.swift"}
+SKIP_FILES = {"Lexicons.swift", "ReplyTemplates.swift", "GuidanceTemplates.swift"} if CORE else {"DemoData.swift"}
 
 IGNORE = {
     "MomentBackground","MomentSurface","MomentPrimary","MomentSecondary","MomentSeparator","AccentColor",
     "MomentAccentFill","MomentPositive","MomentCaution","en_US_POSIX","yyyy-MM-dd","CFBundleShortVersionString",
-    "MOMENT-export-%@.json","–","/","Alex","Sam","Worth pausing before I acted.","Moment","Decisions","Outcome","?","Empty",". ",".","!","ł","'","\\u{2019}","ąćęłńóśźżĄĆĘŁŃÓŚŹŻ",
+    "MOMENT-export-%@.json","–","/","Alex","Sam","Worth pausing before I acted.","Moment","Decisions","Outcome","?","Empty","%@.",". ",".","!","ł","'","\\u{2019}","ąćęłńóśźżĄĆĘŁŃÓŚŹŻ",
 }
 
 def literals(text):

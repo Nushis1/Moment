@@ -237,3 +237,58 @@ struct ReplyAdvisorTests {
         #expect(MomentEngine.analyzeReply(ReplyInput(receivedMessage: "Are you free this weekend?")).draftNotes.isEmpty)
     }
 }
+
+@Suite("Concrete guidance")
+struct GuidanceTests {
+    @Test("Every option comes with steps")
+    func stepsExist() {
+        for goal in UserGoal.allCases {
+            let analysis = MomentEngine.analyze(makeRichInput(goal: goal, emotion: .anxious))
+            #expect(analysis.scenarios.allSatisfy { $0.steps.count >= 2 })
+        }
+    }
+
+    @Test("Waiting and giving space always say for how long")
+    func timeframes() {
+        let analysis = MomentEngine.analyze(makeRichInput(goal: .wait, emotion: .angry))
+        for scenario in analysis.scenarios where scenario.action == .waitUntilCalm || scenario.action == .giveSpace {
+            #expect(scenario.timeframe != nil)
+        }
+    }
+
+    @Test("Opening the conversation comes with an example message")
+    func exampleMessage() {
+        let analysis = MomentEngine.analyze(makeRichInput(goal: .takeFirstStep, emotion: .calm))
+        let write = analysis.scenarios.first { $0.action == .writeNow }
+        #expect(write?.sampleMessage?.isEmpty == false)
+    }
+
+    @Test("Example messages follow the language of the situation")
+    func polishExample() {
+        var input = makeRichInput(goal: .takeFirstStep, emotion: .calm)
+        input.situation = "Poznaliśmy się tydzień temu i od poniedziałku nie mamy kontaktu, więc nie wiem, czy mam się odezwać pierwszy."
+        input.message = ""
+        input.context = ""
+        let analysis = MomentEngine.analyze(input)
+        let write = analysis.scenarios.first { $0.action == .writeNow }
+        #expect(write?.sampleMessage?.hasPrefix("Cześć") == true)
+    }
+
+    @Test("A longer pause is advised when feelings are stronger")
+    func pauseScalesWithIntensity() {
+        let calm = MomentEngine.analyze(makeRichInput(goal: .wait, emotion: .calm))
+        let angry = MomentEngine.analyze(makeRichInput(goal: .wait, emotion: .angry))
+        let calmText = calm.scenarios.first { $0.action == .waitUntilCalm }?.timeframe
+        let angryText = angry.scenarios.first { $0.action == .waitUntilCalm }?.timeframe
+        #expect(calmText != nil && angryText != nil)
+        #expect(calmText != angryText)
+    }
+
+    @Test("When distance was requested no example message is ever offered")
+    func noMessageWhenDistanceAsked() {
+        var input = makeRichInput(goal: .reply, emotion: .calm)
+        input.situation = "She told me don't text me anymore, but I miss her and want to write."
+        let analysis = MomentEngine.analyze(input)
+        #expect(analysis.scenarios.allSatisfy { $0.sampleMessage == nil })
+    }
+}

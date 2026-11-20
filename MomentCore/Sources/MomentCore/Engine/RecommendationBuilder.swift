@@ -4,13 +4,17 @@ import Foundation
 enum RecommendationBuilder {
     static func build(input: MomentInput, profile: ContextProfile, decision: Decision, now: Date) -> MomentAnalysis {
         let seed = input.trimmedSituation
-        let scenarios = decision.scenarios.map { evaluated in
-            Scenario(
+        let scenarios = decision.scenarios.map { evaluated -> Scenario in
+            let guidance = GuidanceBuilder.guidance(for: evaluated.action, profile: profile)
+            return Scenario(
                 action: evaluated.action,
                 title: title(for: evaluated.action),
                 rationale: rationale(for: evaluated.action, profile: profile, seed: seed),
                 pros: pros(for: evaluated.action),
                 cons: cons(for: evaluated.action, profile: profile),
+                timeframe: guidance.timeframe,
+                steps: guidance.steps,
+                sampleMessage: guidance.sampleMessage,
                 factors: evaluated.factors
             )
         }

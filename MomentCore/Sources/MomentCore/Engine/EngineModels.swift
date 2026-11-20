@@ -80,6 +80,8 @@ public struct ContextProfile: Hashable, Sendable {
     public var missing: [MissingInformation]
     public var constraints: [SafetyConstraint]
     public var messageSignals: LanguageSignals
+    /// Language of what the person wrote; example messages are written in it.
+    public var language: TextLanguage
 
     public var respectsDistance: Bool { constraints.contains(.respectDistance) }
 }

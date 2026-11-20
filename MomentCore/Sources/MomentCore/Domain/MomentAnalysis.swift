@@ -55,6 +55,12 @@ public struct Scenario: Identifiable, Hashable, Codable, Sendable {
     public var rationale: String
     public var pros: [String]
     public var cons: [String]
+    /// A rule-of-thumb duration ("a few hours"), when timing matters for this option.
+    public var timeframe: String?
+    /// Concrete things to do, in order.
+    public var steps: [String]
+    /// A neutral example of what to say, in the language of the situation. Never a script to push contact.
+    public var sampleMessage: String?
     public var factors: ScoreFactors
 
     public init(
@@ -64,6 +70,9 @@ public struct Scenario: Identifiable, Hashable, Codable, Sendable {
         rationale: String,
         pros: [String] = [],
         cons: [String] = [],
+        timeframe: String? = nil,
+        steps: [String] = [],
+        sampleMessage: String? = nil,
         factors: ScoreFactors
     ) {
         self.id = id
@@ -72,6 +81,9 @@ public struct Scenario: Identifiable, Hashable, Codable, Sendable {
         self.rationale = rationale
         self.pros = pros
         self.cons = cons
+        self.timeframe = timeframe
+        self.steps = steps
+        self.sampleMessage = sampleMessage
         self.factors = factors
     }
 

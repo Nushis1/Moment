@@ -111,6 +111,17 @@
         }
       }
     },
+    "Add more detail": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj więcej szczegółów"
+          }
+        }
+      }
+    },
     "Adding people is optional. Add someone only if you want to keep private context for them.": {
       "extractionState": "manual",
       "localizations": {
@@ -327,6 +338,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Anuluj"
+          }
+        }
+      }
+    },
+    "Change it so it sounds like you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmień to tak, żeby brzmiało jak ty."
           }
         }
       }
@@ -694,6 +716,17 @@
         }
       }
     },
+    "Details": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szczegóły"
+          }
+        }
+      }
+    },
     "Different than expected": {
       "extractionState": "manual",
       "localizations": {
@@ -822,6 +855,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Była lub były"
+          }
+        }
+      }
+    },
+    "Example closing message": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przykładowa wiadomość na zakończenie"
+          }
+        }
+      }
+    },
+    "Example opener": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przykładowe otwarcie"
           }
         }
       }
@@ -1119,6 +1174,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jak się to skończyło"
+          }
+        }
+      }
+    },
+    "How to do it": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak to zrobić"
           }
         }
       }
@@ -1772,6 +1838,17 @@
         }
       }
     },
+    "Optional holding message": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcjonalna wiadomość podtrzymująca"
+          }
+        }
+      }
+    },
     "Optional lock": {
       "extractionState": "manual",
       "localizations": {
@@ -2043,17 +2120,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Profil i ustawienia"
-          }
-        }
-      }
-    },
-    "Pros and cons": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Plusy i minusy"
           }
         }
       }
@@ -2663,6 +2729,17 @@
         }
       }
     },
+    "Timeframes are rules of thumb, not predictions.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przedziały czasu to orientacyjne reguły, a nie prognozy."
+          }
+        }
+      }
+    },
     "Today": {
       "extractionState": "manual",
       "localizations": {
@@ -2967,6 +3044,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Praca"
+          }
+        }
+      }
+    },
+    "Write the reply in Reply Studio": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napisz odpowiedź w Studiu odpowiedzi"
           }
         }
       }

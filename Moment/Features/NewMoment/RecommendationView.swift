@@ -1,5 +1,6 @@
 import Foundation
 import SwiftUI
+import UIKit
 import MomentCore
 
 struct RecommendationView: View {
@@ -8,6 +9,8 @@ struct RecommendationView: View {
     let onFinish: () -> Void
 
     @Environment(MomentStore.self) private var store
+    @Environment(Router.self) private var router
+    @Environment(\.dismiss) private var dismiss
     @State private var selectedID: UUID
     @State private var saved = false
 
@@ -66,6 +69,15 @@ struct RecommendationView: View {
                     Text("Confidence shows how complete your input was. It is not a chance of success.")
                         .font(.momentCaption)
                         .foregroundStyle(MomentColor.secondary)
+
+                    Divider()
+                    ScenarioGuidanceView(scenario: scenario)
+
+                    if input.goal == .reply && !input.message.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                        SecondaryButton(title: "Write the reply in Reply Studio", systemImage: "text.bubble") {
+                            router.openReplyStudio(with: ReplyInput(receivedMessage: input.message))
+                        }
+                    }
                 }
                 .momentCard()
             }
@@ -129,6 +141,9 @@ struct RecommendationView: View {
                             .font(.system(.body, weight: .medium))
                             .foregroundStyle(MomentColor.primary)
                     }
+                    SecondaryButton(title: "Add more detail", systemImage: "plus.bubble") {
+                        dismiss()
+                    }
                 }
                 .momentCard()
             }
@@ -186,8 +201,9 @@ struct ScenarioCard: View {
             .buttonStyle(.plain)
             .accessibilityAddTraits(isSelected ? [.isSelected] : [])
 
-            DisclosureGroup("Pros and cons") {
+            DisclosureGroup("Details") {
                 VStack(alignment: .leading, spacing: MomentSpacing.m) {
+                    ScenarioGuidanceView(scenario: scenario)
                     if !scenario.pros.isEmpty {
                         BulletList(items: scenario.pros, tint: MomentColor.positive)
                     }
@@ -206,5 +222,104 @@ struct ScenarioCard: View {
                 .strokeBorder(isSelected ? MomentColor.accent : Color.clear, lineWidth: 1.5)
         }
         .sensoryFeedback(.selection, trigger: isSelected)
+    }
+}
+
+
+/// How long, what to do and what to say for one option. Durations are rules of thumb.
+struct ScenarioGuidanceView: View {
+    let scenario: Scenario
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: MomentSpacing.m) {
+            if let timeframe = scenario.timeframe {
+                Label {
+                    Text(timeframe)
+                        .font(.system(.subheadline, weight: .medium))
+                        .foregroundStyle(MomentColor.primary)
+                        .fixedSize(horizontal: false, vertical: true)
+                } icon: {
+                    Image(systemName: "clock")
+                        .foregroundStyle(MomentColor.accent)
+                }
+            }
+
+            if !scenario.steps.isEmpty {
+                VStack(alignment: .leading, spacing: MomentSpacing.s) {
+                    Text("How to do it")
+                        .font(.system(.subheadline, weight: .semibold))
+                        .foregroundStyle(MomentColor.accent)
+                    ForEach(Array(scenario.steps.enumerated()), id: \.offset) { index, step in
+                        HStack(alignment: .firstTextBaseline, spacing: MomentSpacing.s) {
+                            Text(verbatim: "\(index + 1).")
+                                .font(.system(.footnote, weight: .semibold).monospacedDigit())
+                                .foregroundStyle(MomentColor.secondary)
+                                .frame(width: 20, alignment: .leading)
+                                .accessibilityHidden(true)
+                            Text(step)
+                                .font(.momentBody)
+                                .foregroundStyle(MomentColor.primary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                    }
+                }
+            }
+
+            if let message = scenario.sampleMessage {
+                SampleMessageView(action: scenario.action, message: message)
+            }
+
+            if scenario.timeframe != nil {
+                Text("Timeframes are rules of thumb, not predictions.")
+                    .font(.momentCaption)
+                    .foregroundStyle(MomentColor.secondary)
+            }
+        }
+    }
+}
+
+/// An example of what to say, with a copy button. Meant to be edited, never sent blindly.
+struct SampleMessageView: View {
+    let action: ActionKind
+    let message: String
+
+    @State private var copied = false
+
+    private var label: LocalizedStringKey {
+        switch action {
+        case .waitUntilCalm: "Optional holding message"
+        case .closeContact: "Example closing message"
+        default: "Example opener"
+        }
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: MomentSpacing.s) {
+            Text(label)
+                .font(.system(.subheadline, weight: .semibold))
+                .foregroundStyle(MomentColor.accent)
+            Text(message)
+                .font(.momentBody)
+                .foregroundStyle(MomentColor.primary)
+                .textSelection(.enabled)
+                .padding(MomentSpacing.m)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(MomentColor.background, in: .rect(cornerRadius: MomentRadius.control, style: .continuous))
+            Text("Change it so it sounds like you.")
+                .font(.momentCaption)
+                .foregroundStyle(MomentColor.secondary)
+            Button {
+                UIPasteboard.general.string = message
+                copied = true
+            } label: {
+                if copied {
+                    Label("Copied", systemImage: "checkmark")
+                } else {
+                    Label("Copy", systemImage: "doc.on.doc")
+                }
+            }
+            .buttonStyle(.glass)
+            .sensoryFeedback(.success, trigger: copied)
+        }
     }
 }

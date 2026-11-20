@@ -64,6 +64,14 @@ struct ReplyStudioView: View {
         .scrollDismissesKeyboard(.interactively)
         .momentBackground()
         .navigationTitle("Reply Studio")
+        .onAppear { applyPrefill() }
+        .onChange(of: router.replyPrefill) { _, _ in applyPrefill() }
+    }
+
+    private func applyPrefill() {
+        guard let prefill = router.replyPrefill else { return }
+        input = prefill
+        router.replyPrefill = nil
     }
 
     private var analyzeButton: some View {

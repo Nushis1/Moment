@@ -23,7 +23,8 @@ public enum ContextAnalyzer {
             evidenceScore: evidence(input: input, hasMessage: hasMessage, hasContext: hasContext, hasTiming: hasTiming),
             missing: missing(for: input.goal, hasMessage: hasMessage, hasContext: hasContext, hasTiming: hasTiming),
             constraints: combined.hasRefusalCue ? [.respectDistance] : [],
-            messageSignals: message
+            messageSignals: message,
+            language: combined.language
         )
     }
 

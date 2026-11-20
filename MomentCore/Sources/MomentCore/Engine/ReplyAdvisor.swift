@@ -133,7 +133,11 @@ enum ReplyAdvisor {
 
     /// Replies are written in the language of the message; unknown falls back to the device language.
     static func replyLanguage(for signals: LanguageSignals) -> TextLanguage {
-        if signals.language != .unknown { return signals.language }
+        resolve(signals.language)
+    }
+
+    static func resolve(_ language: TextLanguage) -> TextLanguage {
+        if language != .unknown { return language }
         return Locale.current.language.languageCode?.identifier == "pl" ? .polish : .english
     }
 
