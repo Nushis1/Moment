@@ -20,6 +20,14 @@ struct ReplyResultView: View {
                 section(number: 3, title: "What can't be known from here", items: analysis.unknowns, tint: MomentColor.caution)
                 suggestionsSection
 
+                if !analysis.draftNotes.isEmpty {
+                    VStack(alignment: .leading, spacing: MomentSpacing.m) {
+                        SectionHeader(title: "About your draft")
+                        BulletList(items: analysis.draftNotes)
+                            .momentCard()
+                    }
+                }
+
                 VStack(alignment: .leading, spacing: MomentSpacing.m) {
                     SectionHeader(title: "Why these fit")
                     Text(analysis.fitExplanation)

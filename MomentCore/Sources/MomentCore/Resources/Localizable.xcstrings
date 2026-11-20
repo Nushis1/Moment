@@ -1,0 +1,1194 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "A brief pause costs little and lets you check that you really want to send this.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótka przerwa niewiele kosztuje i pozwala sprawdzić, czy na pewno chcesz to wysłać."
+          }
+        }
+      }
+    },
+    "A calmer message is easier to stand behind later.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Za spokojniejszą wiadomością łatwiej później stanąć."
+          }
+        }
+      }
+    },
+    "A little more background on how the two of you usually communicate.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trochę więcej o tym, jak zwykle się komunikujecie."
+          }
+        }
+      }
+    },
+    "A more neutral version, in case the first feels too strong.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bardziej neutralna wersja, gdyby pierwsza wydała się zbyt mocna."
+          }
+        }
+      }
+    },
+    "A natural tone was used because a flirty tone doesn't fit this intent.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyto naturalnego tonu, bo flirtujący nie pasuje do tej intencji."
+          }
+        }
+      }
+    },
+    "A pause lets you check what you really want to say.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przerwa pozwala sprawdzić, co naprawdę chcesz powiedzieć."
+          }
+        }
+      }
+    },
+    "A sent message can't be taken back.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysłanej wiadomości nie da się cofnąć."
+          }
+        }
+      }
+    },
+    "A short message can mean the person is busy, relaxed, or simply brief by habit.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótka wiadomość może znaczyć, że ktoś jest zajęty, wyluzowany albo po prostu pisze zwięźle."
+          }
+        }
+      }
+    },
+    "A short pause lets the intensity settle so your message reflects what you actually want.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótka przerwa pozwala opaść emocjom, żeby wiadomość oddawała to, czego naprawdę chcesz."
+          }
+        }
+      }
+    },
+    "A short, calm closing message or a quiet step back can end contact without leaving things hostile.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótka, spokojna wiadomość na zakończenie albo ciche wycofanie się może zakończyć kontakt bez wrogości."
+          }
+        }
+      }
+    },
+    "A shorter version of the same idea.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótsza wersja tej samej myśli."
+          }
+        }
+      }
+    },
+    "A softer version.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łagodniejsza wersja."
+          }
+        }
+      }
+    },
+    "Acknowledges the request without pushing.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyjmuje prośbę do wiadomości, bez naciskania."
+          }
+        }
+      }
+    },
+    "Acting lets you learn how the other person responds.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Działanie pozwala zobaczyć, jak zareaguje druga osoba."
+          }
+        }
+      }
+    },
+    "Because the message may ask for distance, these options avoid pushing for contact.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponieważ wiadomość może prosić o dystans, te opcje nie naciskają na kontakt."
+          }
+        }
+      }
+    },
+    "Because the other person asked for distance, this is the option that respects that.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponieważ druga osoba poprosiła o dystans, to opcja, która to szanuje."
+          }
+        }
+      }
+    },
+    "Capital letters in a draft can read as a raised voice.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wielkie litery w szkicu mogą brzmieć jak podniesiony głos."
+          }
+        }
+      }
+    },
+    "Close the contact calmly": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spokojnie zamknij kontakt"
+          }
+        }
+      }
+    },
+    "Could you paste the message you received?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy możesz wkleić otrzymaną wiadomość?"
+          }
+        }
+      }
+    },
+    "Give the other person space": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daj drugiej osobie przestrzeń"
+          }
+        }
+      }
+    },
+    "How long has it been since you last talked?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak dawno ostatnio rozmawialiście?"
+          }
+        }
+      }
+    },
+    "How long it has been since the last contact.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ile czasu minęło od ostatniego kontaktu."
+          }
+        }
+      }
+    },
+    "How they usually write to you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak zwykle do ciebie pisze."
+          }
+        }
+      }
+    },
+    "Is this how the two of you usually communicate, or has something changed?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy tak zwykle się komunikujecie, czy coś się zmieniło?"
+          }
+        }
+      }
+    },
+    "It carries the lowest risk of an outcome you would regret.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niesie najmniejsze ryzyko skutku, którego byś żałował lub żałowała."
+          }
+        }
+      }
+    },
+    "It comes out slightly ahead across the factors that matter to you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypada nieznacznie lepiej w czynnikach, które są dla ciebie ważne."
+          }
+        }
+      }
+    },
+    "It contains a question, which invites an answer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawiera pytanie, które zaprasza do odpowiedzi."
+          }
+        }
+      }
+    },
+    "It contains friendly wording.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawiera przyjazne sformułowania."
+          }
+        }
+      }
+    },
+    "It contains wording that can sound tense.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawiera sformułowania, które mogą brzmieć ostro."
+          }
+        }
+      }
+    },
+    "It contains words written in capital letters.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawiera słowa pisane wielkimi literami."
+          }
+        }
+      }
+    },
+    "It could also simply be a neutral, practical message.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może to być też zwykła, neutralna, praktyczna wiadomość."
+          }
+        }
+      }
+    },
+    "It could be friendly or interested, though wording alone can't confirm that.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może być przyjazna lub pełna zainteresowania, choć same słowa tego nie potwierdzą."
+          }
+        }
+      }
+    },
+    "It doesn't contain a direct question.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie zawiera bezpośredniego pytania."
+          }
+        }
+      }
+    },
+    "It fits how you would like to treat the other person best.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepiej pasuje do tego, jak chcesz traktować drugą osobę."
+          }
+        }
+      }
+    },
+    "It fits the information available best.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepiej pasuje do dostępnych informacji."
+          }
+        }
+      }
+    },
+    "It fits what you want to achieve best.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepiej pasuje do tego, co chcesz osiągnąć."
+          }
+        }
+      }
+    },
+    "It gives both of you a clear ending.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daje wam obojgu jasne zakończenie."
+          }
+        }
+      }
+    },
+    "It includes emoji.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawiera emotikony."
+          }
+        }
+      }
+    },
+    "It lets you step away with dignity.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozwala odejść z godnością."
+          }
+        }
+      }
+    },
+    "It matches the way you prefer to communicate.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasuje do sposobu, w jaki wolisz się komunikować."
+          }
+        }
+      }
+    },
+    "It matches your wish to move things forward.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasuje do twojej chęci, by ruszyć sprawy do przodu."
+          }
+        }
+      }
+    },
+    "It may be a genuine invitation to continue the conversation.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może to być szczere zaproszenie do kontynuowania rozmowy."
+          }
+        }
+      }
+    },
+    "It may be a request for distance, and it deserves to be taken at face value.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może to być prośba o dystans i warto potraktować ją dosłownie."
+          }
+        }
+      }
+    },
+    "It may feel final before you are ready.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może wydać się ostateczne, zanim będziesz gotowy lub gotowa."
+          }
+        }
+      }
+    },
+    "It might reflect frustration, or just a rushed moment.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Może odzwierciedlać frustrację albo po prostu pośpiech."
+          }
+        }
+      }
+    },
+    "It protects the other person's boundaries.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chroni granice drugiej osoby."
+          }
+        }
+      }
+    },
+    "It suits how you feel right now best.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepiej pasuje do tego, jak się teraz czujesz."
+          }
+        }
+      }
+    },
+    "It takes more time and courage.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wymaga więcej czasu i odwagi."
+          }
+        }
+      }
+    },
+    "It uses absolute words such as “always” or “never”.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Używa słów absolutnych, takich jak „zawsze” czy „nigdy”."
+          }
+        }
+      }
+    },
+    "It uses exclamation marks.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Używa wykrzykników."
+          }
+        }
+      }
+    },
+    "It uses softening words such as “maybe” or “perhaps”.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Używa słów łagodzących, takich jak „może” czy „chyba”."
+          }
+        }
+      }
+    },
+    "It's harder to find the right words on the spot.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trudniej znaleźć odpowiednie słowa na miejscu."
+          }
+        }
+      }
+    },
+    "Leaving room for the other person to respond in their own time respects both sides.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zostawienie drugiej osobie miejsca na odpowiedź w jej własnym czasie szanuje obie strony."
+          }
+        }
+      }
+    },
+    "Matches the intent and tone you chose.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasuje do wybranej intencji i tonu."
+          }
+        }
+      }
+    },
+    "Misunderstandings can be cleared up straight away.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieporozumienia można wyjaśnić od razu."
+          }
+        }
+      }
+    },
+    "Several exclamation marks can make a message feel more intense than you may intend.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kilka wykrzykników może sprawić, że wiadomość zabrzmi mocniej, niż zamierzasz."
+          }
+        }
+      }
+    },
+    "Some things land better in a voice or in person, where tone is clear and misunderstandings can be fixed on the spot.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niektóre sprawy lepiej wybrzmiewają głosem lub osobiście, gdzie ton jest czytelny, a nieporozumienia można wyjaśnić od razu."
+          }
+        }
+      }
+    },
+    "Some wording in your draft could sound tense. You may want to check it once more before sending.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Część sformułowań w szkicu może brzmieć ostro. Warto jeszcze raz go przejrzeć przed wysłaniem."
+          }
+        }
+      }
+    },
+    "Strong emotions are easier to manage after a short break.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silnymi emocjami łatwiej zarządzać po krótkiej przerwie."
+          }
+        }
+      }
+    },
+    "Strong feelings are present, which makes a short pause worth considering.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Towarzyszą ci silne emocje, więc warto rozważyć krótką przerwę."
+          }
+        }
+      }
+    },
+    "Strong feelings may colour the wording.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silne emocje mogą zabarwić sformułowania."
+          }
+        }
+      }
+    },
+    "Talk in person or on a call": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porozmawiaj osobiście lub przez telefon"
+          }
+        }
+      }
+    },
+    "The energy may be enthusiasm, or simply style.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta energia może oznaczać entuzjazm albo po prostu styl pisania."
+          }
+        }
+      }
+    },
+    "The message has about %lld words.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiadomość ma około %lld słów."
+          }
+        }
+      }
+    },
+    "The message is very short.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiadomość jest bardzo krótka."
+          }
+        }
+      }
+    },
+    "The message itself, so the wording can be considered.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sama wiadomość, żeby można było rozważyć jej sformułowania."
+          }
+        }
+      }
+    },
+    "The other person asked for distance.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Druga osoba poprosiła o dystans."
+          }
+        }
+      }
+    },
+    "The other person may read silence in different ways.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Druga osoba może różnie odczytać ciszę."
+          }
+        }
+      }
+    },
+    "The other person might respond with strong feelings.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Druga osoba może zareagować silnymi emocjami."
+          }
+        }
+      }
+    },
+    "There is no pressure on either of you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nikt z was nie jest pod presją."
+          }
+        }
+      }
+    },
+    "These options follow the intent and tone you chose, and none of them assumes what the other person feels.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te opcje wynikają z wybranej intencji i tonu, a żadna nie zakłada, co czuje druga osoba."
+          }
+        }
+      }
+    },
+    "They have indicated they want distance. Honouring that is the clearest way to respect them.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta osoba dała do zrozumienia, że chce dystansu. Uszanowanie tego to najczytelniejszy sposób okazania jej szacunku."
+          }
+        }
+      }
+    },
+    "Tone and intent are easier to read.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton i intencje łatwiej odczytać."
+          }
+        }
+      }
+    },
+    "Tone is hard to judge from text alone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ton trudno ocenić wyłącznie z tekstu."
+          }
+        }
+      }
+    },
+    "Wait until you feel steadier": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poczekaj, aż poczujesz się stabilniej"
+          }
+        }
+      }
+    },
+    "Waiting can turn into avoiding if there is no end point.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czekanie może przerodzić się w unikanie, jeśli nie ma punktu końcowego."
+          }
+        }
+      }
+    },
+    "Waiting too long can make the situation feel bigger.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zbyt długie czekanie może sprawić, że sytuacja wyda się większa."
+          }
+        }
+      }
+    },
+    "What mood they were in when they wrote it.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W jakim była nastroju, gdy to pisała."
+          }
+        }
+      }
+    },
+    "What the other person intended.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co druga osoba miała na myśli."
+          }
+        }
+      }
+    },
+    "What would a good outcome look like for you?": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak wyglądałby dla ciebie dobry rezultat?"
+          }
+        }
+      }
+    },
+    "What you hope will happen afterwards.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czego się potem spodziewasz lub czego chcesz."
+          }
+        }
+      }
+    },
+    "Write now": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napisz teraz"
+          }
+        }
+      }
+    },
+    "Writing now is possible, but strong feelings may shape the wording more than you intend.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pisanie teraz jest możliwe, ale silne emocje mogą kształtować sformułowania bardziej, niż zamierzasz."
+          }
+        }
+      }
+    },
+    "You already lean towards waiting. A defined pause of hours, not days, keeps it from turning into avoidance.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Już skłaniasz się ku czekaniu. Określona przerwa, liczona w godzinach, a nie dniach, chroni przed przerodzeniem się w unikanie."
+          }
+        }
+      }
+    },
+    "You chose to ask a question, but your draft doesn't contain one.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybrano pytanie jako cel, ale twój szkic nie zawiera pytania."
+          }
+        }
+      }
+    },
+    "You don't have much information yet, and a pause lets you gather it.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz jeszcze mało informacji, a przerwa pozwala je zebrać."
+          }
+        }
+      }
+    },
+    "You feel fairly steady, which makes clear communication easier.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czujesz się dość stabilnie, co ułatwia jasną komunikację."
+          }
+        }
+      }
+    },
+    "You feel steady enough to say it well.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jesteś na tyle spokojny lub spokojna, żeby powiedzieć to dobrze."
+          }
+        }
+      }
+    },
+    "You feel steady enough to write clearly, and reaching out soon keeps things simple.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jesteś na tyle spokojny lub spokojna, żeby napisać jasno, a szybki kontakt upraszcza sprawy."
+          }
+        }
+      }
+    },
+    "You get clarity sooner.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybciej zyskujesz jasność."
+          }
+        }
+      }
+    },
+    "You keep the option to write later.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowujesz możliwość napisania później."
+          }
+        }
+      }
+    },
+    "You may stay uncertain for longer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możesz dłużej pozostać w niepewności."
+          }
+        }
+      }
+    },
+    "You mentioned that the other person asked for distance, so every option below respects that.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wspomniałeś lub wspomniałaś, że druga osoba poprosiła o dystans, więc każda opcja poniżej to szanuje."
+          }
+        }
+      }
+    },
+    "You want clarity rather than guessing.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zależy ci na jasności, a nie na domysłach."
+          }
+        }
+      }
+    },
+    "You want to share how you feel.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chcesz powiedzieć, co czujesz."
+          }
+        }
+      }
+    },
+    "You'd like to keep getting to know someone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chcesz dalej kogoś poznawać."
+          }
+        }
+      }
+    },
+    "You're considering whether to wait.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozważasz, czy poczekać."
+          }
+        }
+      }
+    },
+    "You're deciding how to answer a message.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastanawiasz się, jak odpowiedzieć na wiadomość."
+          }
+        }
+      }
+    },
+    "You're deciding whether to reach out first.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastanawiasz się, czy odezwać się pierwszy lub pierwsza."
+          }
+        }
+      }
+    },
+    "You're in a calm place to think this through.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jesteś w spokojnym miejscu, żeby to przemyśleć."
+          }
+        }
+      }
+    },
+    "You're thinking about ending contact.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Myślisz o zakończeniu kontaktu."
+          }
+        }
+      }
+    },
+    "You're thinking about taking a first step.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Myślisz o zrobieniu pierwszego kroku."
+          }
+        }
+      }
+    },
+    "You're working through a situation that matters to you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mierzysz się z sytuacją, która jest dla ciebie ważna."
+          }
+        }
+      }
+    },
+    "Your draft has about %lld words.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój szkic ma około %lld słów."
+          }
+        }
+      }
+    },
+    "Your draft uses absolute words like “always” or “never”. Softer wording often keeps the conversation open.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój szkic używa słów absolutnych, jak „zawsze” czy „nigdy”. Łagodniejsze sformułowania często zostawiają rozmowę otwartą."
+          }
+        }
+      }
+    },
+    "Your feelings are mixed, which is completely normal here.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje uczucia są mieszane, co jest tu zupełnie normalne."
+          }
+        }
+      }
+    },
+    "Your feelings are running high, so it helps to check how they shape your choices.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emocje są wysokie, więc warto sprawdzić, jak wpływają na twoje wybory."
+          }
+        }
+      }
+    },
+    "Your words are more likely to reflect your goal.": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje słowa lepiej oddadzą twój cel."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

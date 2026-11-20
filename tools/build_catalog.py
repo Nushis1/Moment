@@ -4,6 +4,7 @@ import json, pathlib, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from pl import PL
+from pl_core import PL_CORE
 
 def catalog(entries):
     return {
@@ -21,4 +22,6 @@ info = {"sourceLanguage": "en", "strings": {"NSFaceIDUsageDescription": {"extrac
     "en": {"stringUnit": {"state": "translated", "value": "MOMENT uses Face ID to lock your private notes and decisions."}},
     "pl": {"stringUnit": {"state": "translated", "value": "MOMENT używa Face ID do zablokowania twoich prywatnych notatek i decyzji."}}}}}, "version": "1.0"}
 (ROOT / "Moment" / "InfoPlist.xcstrings").write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n")
-print(len(PL), "keys")
+(ROOT / "MomentCore" / "Sources" / "MomentCore" / "Resources" / "Localizable.xcstrings").write_text(
+    json.dumps(catalog(PL_CORE), ensure_ascii=False, indent=2) + "\n")
+print(len(PL), "app keys,", len(PL_CORE), "core keys")

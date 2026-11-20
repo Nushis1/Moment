@@ -23,17 +23,6 @@
         }
       }
     },
-    "A calmer message is easier to stand behind later.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Za spokojniejszą wiadomością łatwiej później stanąć."
-          }
-        }
-      }
-    },
     "A few words for your future self": {
       "extractionState": "manual",
       "localizations": {
@@ -41,17 +30,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kilka słów dla przyszłego siebie"
-          }
-        }
-      }
-    },
-    "A message can't be taken back once it's sent.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wysłanej wiadomości nie da się cofnąć."
           }
         }
       }
@@ -78,17 +56,6 @@
         }
       }
     },
-    "A short pause lets you check what you actually want to say.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Krótka przerwa pozwala sprawdzić, co naprawdę chcesz powiedzieć."
-          }
-        }
-      }
-    },
     "A situation that doesn't fit the options above.": {
       "extractionState": "manual",
       "localizations": {
@@ -107,6 +74,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "O aplikacji"
+          }
+        }
+      }
+    },
+    "About your draft": {
+      "extractionState": "manual",
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O twoim szkicu"
           }
         }
       }
@@ -991,17 +969,6 @@
         }
       }
     },
-    "Give the other person space": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Daj drugiej osobie przestrzeń"
-          }
-        }
-      }
-    },
     "Good": {
       "extractionState": "manual",
       "localizations": {
@@ -1057,17 +1024,6 @@
         }
       }
     },
-    "Hey, good to hear from you. I'm a bit busy now, can I answer properly later today?": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hej, miło cię słyszeć. Jestem teraz trochę zajęty lub zajęta, mogę odpisać porządnie później?"
-          }
-        }
-      }
-    },
     "History": {
       "extractionState": "manual",
       "localizations": {
@@ -1097,17 +1053,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Start"
-          }
-        }
-      }
-    },
-    "Honest about timing without closing the door.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Szczera co do czasu, bez zamykania drzwi."
           }
         }
       }
@@ -1152,17 +1097,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jak zwykle lubisz się komunikować? Możesz to zmienić w każdej chwili w Ustawieniach."
-          }
-        }
-      }
-    },
-    "How often the two of you usually talk.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jak często zwykle rozmawiacie."
           }
         }
       }
@@ -1266,50 +1200,6 @@
         }
       }
     },
-    "Is this a usual pace of contact for you two, or has something changed?": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Czy to zwykłe tempo kontaktu między wami, czy coś się zmieniło?"
-          }
-        }
-      }
-    },
-    "It contains a question, which invites an answer.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zawiera pytanie, które zaprasza do odpowiedzi."
-          }
-        }
-      }
-    },
-    "It could also be an opening for a longer conversation.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Może to być też początek dłuższej rozmowy."
-          }
-        }
-      }
-    },
-    "It could be a simple, friendly check-in.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Może to być zwykłe, przyjazne zagadnięcie."
-          }
-        }
-      }
-    },
     "It depends": {
       "extractionState": "manual",
       "localizations": {
@@ -1317,28 +1207,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "To zależy"
-          }
-        }
-      }
-    },
-    "It doesn't contain a direct question.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nie zawiera bezpośredniego pytania."
-          }
-        }
-      }
-    },
-    "It matches your wish to move things forward.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pasuje do twojej chęci, by ruszyć sprawy do przodu."
           }
         }
       }
@@ -1361,17 +1229,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Porządkuje to, czym się dzielisz, i pokazuje możliwe odczytania. Nigdy nie twierdzi, że wie, co ktoś czuje ani jak potoczy się relacja."
-          }
-        }
-      }
-    },
-    "It protects the boundaries you mentioned.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chroni granice, o których wspomniałeś lub wspomniałaś."
           }
         }
       }
@@ -1427,17 +1284,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ucz się z mojej historii"
-          }
-        }
-      }
-    },
-    "Leaving room for them to respond in their own time respects both sides.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zostawienie miejsca na odpowiedź w jej własnym czasie szanuje obie strony."
           }
         }
       }
@@ -2234,17 +2080,6 @@
         }
       }
     },
-    "Reaching out soon keeps the moment fresh and shows you care about clarity.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Szybki kontakt zachowuje świeżość chwili i pokazuje, że zależy ci na jasności."
-          }
-        }
-      }
-    },
     "Recent situations": {
       "extractionState": "manual",
       "localizations": {
@@ -2652,28 +2487,6 @@
         }
       }
     },
-    "Strong emotions are easier to manage after a short break.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Silnymi emocjami łatwiej zarządzać po krótkiej przerwie."
-          }
-        }
-      }
-    },
-    "Strong feelings can shape the wording more than you intend.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Silne emocje mogą kształtować sformułowania bardziej, niż zamierzasz."
-          }
-        }
-      }
-    },
     "Suggest a meeting, a call or a change.": {
       "extractionState": "manual",
       "localizations": {
@@ -2740,17 +2553,6 @@
         }
       }
     },
-    "Thanks for writing! I'd love to hear more. How has your week been?": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dzięki, że piszesz! Chętnie posłucham więcej. Jak minął ci tydzień?"
-          }
-        }
-      }
-    },
     "The export is a JSON file you control. MOMENT never uploads it anywhere.": {
       "extractionState": "manual",
       "localizations": {
@@ -2773,28 +2575,6 @@
         }
       }
     },
-    "The message has about %lld words.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wiadomość ma około %lld słów."
-          }
-        }
-      }
-    },
-    "The other person may read silence in different ways.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Druga osoba może różnie odczytać ciszę."
-          }
-        }
-      }
-    },
     "The situation": {
       "extractionState": "manual",
       "localizations": {
@@ -2813,17 +2593,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Motyw"
-          }
-        }
-      }
-    },
-    "There is no pressure on either of you.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nikt z was nie jest pod presją."
           }
         }
       }
@@ -2861,17 +2630,6 @@
         }
       }
     },
-    "These options follow the intent and tone you chose, and none of them assumes what the other person feels.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Te opcje wynikają z wybranej intencji i tonu, a żadna nie zakłada, co czuje druga osoba."
-          }
-        }
-      }
-    },
     "These shape the options and wording you see. You can change them any time.": {
       "extractionState": "manual",
       "localizations": {
@@ -2890,17 +2648,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pomyśl, zanim wyślesz"
-          }
-        }
-      }
-    },
-    "This option fits your goal while leaving the most room for a choice you'll still agree with tomorrow.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ta opcja pasuje do twojego celu i zostawia najwięcej miejsca na wybór, z którym nadal się zgodzisz jutro."
           }
         }
       }
@@ -2934,17 +2681,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ton"
-          }
-        }
-      }
-    },
-    "Tone is hard to judge from text alone.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ton trudno ocenić wyłącznie z tekstu."
           }
         }
       }
@@ -3033,50 +2769,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wersja"
-          }
-        }
-      }
-    },
-    "Wait until you feel steadier": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Poczekaj, aż poczujesz się stabilniej"
-          }
-        }
-      }
-    },
-    "Waiting can turn into avoiding if there is no end point.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Czekanie może przerodzić się w unikanie, jeśli nie ma punktu końcowego."
-          }
-        }
-      }
-    },
-    "Waiting too long can make the situation feel bigger.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zbyt długie czekanie może sprawić, że sytuacja wyda się większa."
-          }
-        }
-      }
-    },
-    "Warm and open. Keeps the conversation going.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ciepła i otwarta. Podtrzymuje rozmowę."
           }
         }
       }
@@ -3202,28 +2894,6 @@
         }
       }
     },
-    "What mood they were in when they wrote it.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "W jakim była nastroju, gdy to pisała."
-          }
-        }
-      }
-    },
-    "What the other person intended.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Co druga osoba miała na myśli."
-          }
-        }
-      }
-    },
     "What would sharpen this": {
       "extractionState": "manual",
       "localizations": {
@@ -3301,17 +2971,6 @@
         }
       }
     },
-    "Write now": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Napisz teraz"
-          }
-        }
-      }
-    },
     "You chose": {
       "extractionState": "manual",
       "localizations": {
@@ -3323,39 +2982,6 @@
         }
       }
     },
-    "You get an answer sooner.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Szybciej dostaniesz odpowiedź."
-          }
-        }
-      }
-    },
-    "You keep the option to write later.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zachowujesz możliwość napisania później."
-          }
-        }
-      }
-    },
-    "You may stay uncertain for longer.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Możesz dłużej pozostać w niepewności."
-          }
-        }
-      }
-    },
     "You most often come to MOMENT feeling %@.": {
       "extractionState": "manual",
       "localizations": {
@@ -3363,28 +2989,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Najczęściej wracasz do MOMENT z uczuciem: %@."
-          }
-        }
-      }
-    },
-    "You want clarity rather than guessing.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zależy ci na jasności, a nie na domysłach."
-          }
-        }
-      }
-    },
-    "You're weighing whether to act now or take a moment first. Here are the options and what each one asks of you.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rozważasz, czy działać teraz, czy najpierw wziąć chwilę. Oto opcje i to, czego każda z nich wymaga."
           }
         }
       }
@@ -3473,17 +3077,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Twoje zapisane momenty są różnorodne. Żaden wyraźny wzorzec jeszcze się nie rysuje."
-          }
-        }
-      }
-    },
-    "Your words are more likely to reflect your goal.": {
-      "extractionState": "manual",
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Twoje słowa lepiej oddadzą twój cel."
           }
         }
       }

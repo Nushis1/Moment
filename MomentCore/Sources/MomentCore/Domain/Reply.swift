@@ -45,6 +45,8 @@ public struct ReplyAnalysis: Identifiable, Hashable, Codable, Sendable {
     public var unknowns: [String]
     public var suggestions: [ReplySuggestion]
     public var fitExplanation: String
+    /// Neutral remarks about the person's own draft, if they wrote one.
+    public var draftNotes: [String]
 
     public init(
         id: UUID = UUID(),
@@ -52,7 +54,8 @@ public struct ReplyAnalysis: Identifiable, Hashable, Codable, Sendable {
         interpretations: [String],
         unknowns: [String],
         suggestions: [ReplySuggestion],
-        fitExplanation: String
+        fitExplanation: String,
+        draftNotes: [String] = []
     ) {
         self.id = id
         self.observations = observations
@@ -60,5 +63,6 @@ public struct ReplyAnalysis: Identifiable, Hashable, Codable, Sendable {
         self.unknowns = unknowns
         self.suggestions = suggestions
         self.fitExplanation = fitExplanation
+        self.draftNotes = draftNotes
     }
 }

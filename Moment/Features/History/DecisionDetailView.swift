@@ -173,11 +173,12 @@ private struct DecisionDetailContent: View {
     }
 
     private func save() {
-        var updated = entry
-        updated.outcome = outcome
-        updated.rating = rating == 0 ? nil : rating
-        updated.reflection = reflection
-        store.updateDecision(updated)
+        store.recordFeedback(
+            decisionID: entry.id,
+            outcome: outcome,
+            rating: rating == 0 ? nil : rating,
+            reflection: reflection
+        )
         savedTick += 1
     }
 }

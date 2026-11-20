@@ -1,7 +1,7 @@
 import Foundation
 import MomentCore
 
-// TEMPORARY (phase 1). Sample content so History, People and Insights can be reviewed.
+// TEMPORARY. Sample content so History, People and Insights can be reviewed.
 // Loaded only when the person taps "Load demo data" in Settings. Removed in phase 2.
 
 enum DemoData {
@@ -44,7 +44,7 @@ enum DemoData {
                 urgency: .medium,
                 personID: person?.id
             )
-            let analysis = DemoAnalyzer.makeAnalysis(for: input)
+            let analysis = MomentEngine.analyze(input)
             let followed = index % 3 != 2
             let selected = followed
                 ? analysis.recommendedScenarioID

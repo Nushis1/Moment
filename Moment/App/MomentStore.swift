@@ -3,33 +3,37 @@ import MomentCore
 
 /// Single source of truth the screens read from.
 ///
-/// PHASE 1: data lives in memory and is lost when the app quits.
-/// PHASE 2 replaces the internals with SwiftData repositories and the real MOMENT CORE engine;
-/// the public API below is the contract screens rely on, so no screen should need to change.
+/// Analysis runs on the local MOMENT CORE engine.
+/// Data still lives in memory and is lost when the app quits. The next step replaces the
+/// internals with SwiftData repositories; the public API below is the contract screens rely on.
 @Observable
 final class MomentStore {
     private(set) var decisions: [DecisionEntry]
     private(set) var people: [PersonEntry]
-    private let analyzer: any MomentAnalyzing
 
     init(
-        analyzer: any MomentAnalyzing = DemoAnalyzer(),
         decisions: [DecisionEntry] = [],
         people: [PersonEntry] = []
     ) {
-        self.analyzer = analyzer
         self.decisions = decisions
         self.people = people
     }
 
     // MARK: Analysis
 
+    /// Preferences from Settings plus what the person's own history has taught the engine.
+    private var engineContext: EngineContext {
+        let preferences = EnginePreferences.current()
+        let signals = preferences.learningEnabled ? PersonalizationEngine.rebuild(from: decisions) : []
+        return EngineContext(preferences: preferences, signals: signals)
+    }
+
     func analyze(_ input: MomentInput) async throws -> MomentAnalysis {
-        try await analyzer.analyze(input)
+        MomentEngine.analyze(input, context: engineContext)
     }
 
     func analyzeReply(_ input: ReplyInput) async throws -> ReplyAnalysis {
-        try await analyzer.analyzeReply(input)
+        MomentEngine.analyzeReply(input, context: engineContext)
     }
 
     // MARK: Decisions
@@ -63,6 +67,12 @@ final class MomentStore {
         )
         decisions.append(entry)
         return entry
+    }
+
+    /// Saves what happened after the person acted, through the Feedback Engine's validation.
+    func recordFeedback(decisionID: UUID, outcome: DecisionOutcome?, rating: Int?, reflection: String) {
+        guard let entry = decision(id: decisionID) else { return }
+        updateDecision(FeedbackEngine.record(outcome: outcome, rating: rating, reflection: reflection, on: entry))
     }
 
     func updateDecision(_ entry: DecisionEntry) {
