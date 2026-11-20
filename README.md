@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/icon.png" width="120" alt="MOMENT icon"/>
+  <img src="Moment\blob\main\docs\icon.png" width="120" alt="MOMENT icon"/>
 </p>
 
 <h1 align="center">MOMENT for iPhone</h1>
